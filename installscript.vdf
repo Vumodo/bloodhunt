@@ -1,0 +1,24 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"EasyAntiCheat"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\760160"
+			"Process 1"		"%INSTALLDIR%\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+			"Command 1"		"install ac86b64f6651465992fb5015a55fc837"
+		}
+	}
+	"Run Process On Uninstall"
+	{
+		"Uninstall"
+		{
+			"Process 1"		"%INSTALLDIR%\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+			"Command 1"		"uninstall ac86b64f6651465992fb5015a55fc837"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"5103c86b08d8b562dbd36547bc62a032681f4cf99b3694b7c6b7a1c62b7242657d57f958dad5b1dc10ac85f997b99a148cdaf4a52acd700358b22d5278956c619b2c0012f2283758945ef455cdf48e2eba947b22defcf9e09a0cd87fec800161a313bff4c3158a56bd06b2d523861e43631c3ff4bcf72902e7f56922b38eef46"
+}
